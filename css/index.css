@@ -1,0 +1,67 @@
+html, body {
+    color: black;
+    font-size: 14px;
+}
+
+.articalBox {
+    margin: 0 auto;
+    width: 640px;
+}
+
+.headerBox {
+    margin: 20px 0;
+}
+
+.articalBox h1 {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.headerBox h1 {
+    font-size: 27px;
+}
+
+.headerBox div {
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.headerBox div span:nth-of-type(1) {
+    color: #576B95;
+    margin-left: 10px;
+}
+
+.headerBox div span:nth-of-type(2) {
+    color: #AAA;
+    margin-left: 10px;
+}
+
+.mainBox p {
+    font-size: 17px;
+    margin-top: 20px;
+    text-indent: 40px;
+    line-height: 40px;
+}
+
+.mainBox img {
+    margin: 10px 0;
+    width: 100%;
+}
+
+@media all and (max-width: 640px) {
+    .articalBox {
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .mainBox .echarts {
+        margin: 40px auto;
+        height: 240px;
+    }
+}
+
+.mainBox .echarts {
+    margin: 20px auto;
+    height: 400px;
+}
